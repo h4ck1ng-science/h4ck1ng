@@ -1,0 +1,97 @@
+@media (min-width: 300px) {
+  body {
+    margin: 30px;
+    width: 85%;
+    background-color: #222222;
+  }
+}
+
+@media (min-width: 1024px) {
+    body {
+      margin: 60px;
+      width: 50%;
+      background-color: #222222;
+    }
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.8em;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: left;
+}
+
+span.shc {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffc200;
+}
+a:hover {
+    text-decoration: underline;
+    color: #999;
+}
+h1 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fff;
+}
+
+p {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul {
+    font-size: 0.9em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fff;
+    line-height: 1.2em;
+}
+
+li {
+    font-size: 0.9em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fff;
+    line-height: 1.2em;
+}
+
+
+footer {
+    border-top: 1px solid #d5d5d5;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
